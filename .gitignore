@@ -1,0 +1,2 @@
+# Ignore nested .git in project subfolders (each project has its own repo)
+projects/*/.git
