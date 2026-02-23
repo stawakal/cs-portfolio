@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shaheda Tawakalyar - Computer Science Student | Software Developer | Problem Solver. Building efficient, scalable solutions at the intersection of logic, creativity, and impact.">
+  <meta name="keywords" content="computer science portfolio, software developer, CS student, tech portfolio">
+  <title>Shaheda Tawakalyar | CS Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">ST</a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="theme-icon sun">☀️</span>
+            <span class="theme-icon moon">🌙</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-bg">
+        <div class="code-bg"></div>
+      </div>
+      <div class="hero-content container">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Shaheda Tawakalyar</h1>
+        <p class="hero-tagline">Computer Science Student · Builder · Student of Life</p>
+        <p class="hero-intro">I like working on projects, testing ideas, and learning by actually doing the work. I'm always exploring new tools and seeing what I can build next.</p>
+        <p class="hero-intro" style="margin-top: 0.5rem; font-weight: 500;">Curious, driven, and constantly improving.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <span class="section-label">About Me</span>
+        <div class="about-grid">
+          <div class="about-content">
+            <p>I'm a Computer Science student who likes building and practicing. I don't just like learning theory, I like actually working on things and figuring them out step by step.</p>
+            <p>I'm interested in software development, systems, cybersecurity, and AI. I use AI tools often to help me think through problems, debug faster, and test ideas. I like using technology in a practical way, not just studying it.</p>
+            <p>I'm also entrepreneurial and interested in business. I like understanding how things turn into something real, whether that's an app, a service, or an idea.</p>
+            <p>Outside of tech, I enjoy traveling and being outdoors. I like new environments and new experiences. I think they help me grow in different ways.</p>
+            <p>Right now I'm focused on improving, building consistently, and seeing how far I can take my skills.</p>
+          </div>
+          <div class="about-visual">
+            <img src="photo.jpg" alt="Shaheda Tawakalyar" class="about-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="about-card about-card-fallback">
+              <span class="about-stat">CS</span>
+              <span class="about-stat-label">Student</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt skills">
+      <div class="container">
+        <span class="section-label">Technical Skills</span>
+        <h2>What I Work With</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+              <span>Python</span><span>Java</span><span>C</span><span>JavaScript</span>
+              <span>Node.js</span><span>SQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Concepts</h3>
+            <div class="skill-tags">
+              <span>Data Structures</span><span>Algorithms</span><span>Operating Systems</span>
+              <span>Networking</span><span>Databases</span><span>Concurrency</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <div class="skill-tags">
+              <span>Git</span><span>GitHub</span><span>Linux</span><span>VS Code</span>
+              <span>React</span><span>WordPress</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <span class="section-label">Projects</span>
+        <h2>What I've Built</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-header">
+              <h3>ByteOrbit</h3>
+              <span class="project-type">Web</span>
+            </div>
+            <p>Software development project exploring efficient solutions and clean architecture.</p>
+            <div class="project-tech">Full-Stack</div>
+            <a href="https://github.com/stawakal/ByteOrbit" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Flow — Task Manager</h3>
+              <span class="project-type">Web</span>
+            </div>
+            <p>Modern task management web app with Kanban board, calendar view, and list view. Features authentication, dark mode, drag-and-drop, and productivity tracking.</p>
+            <div class="project-tech">React, Vite, Tailwind CSS, Firebase</div>
+            <a href="https://github.com/stawakal/task-manager" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Llamasearch</h3>
+              <span class="project-type">AI/ML</span>
+            </div>
+            <p>Contributed to an LLM-powered search tool for intelligent information retrieval.</p>
+            <div class="project-tech">Python, LLM</div>
+            <a href="https://github.com/mithranm/llamasearch" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Desktop Tutorial</h3>
+              <span class="project-type">Tools</span>
+            </div>
+            <p>GitHub Desktop tutorial and workflow documentation for version control.</p>
+            <div class="project-tech">Git, GitHub</div>
+            <a href="https://github.com/stawakal/desktop-tutorial" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Simple Shell</h3>
+              <span class="project-type">Systems</span>
+            </div>
+            <p>Custom Unix shell implementation with job control, piping, and basic command execution.</p>
+            <div class="project-tech">C, Unix, Shell</div>
+            <a href="https://github.com/stawakal/simple-shell" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Graph Optimizer</h3>
+              <span class="project-type">Algorithms</span>
+            </div>
+            <p>Optimized graph algorithms for large-scale network analysis. BFS and Dijkstra with min-heap.</p>
+            <div class="project-tech">Python, Graph Theory</div>
+            <a href="https://github.com/stawakal/graph-optimizer" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>ML Interpretability</h3>
+              <span class="project-type">Research</span>
+            </div>
+            <p>Feature importance analysis and validation pipeline for healthcare ML applications.</p>
+            <div class="project-tech">Python, scikit-learn</div>
+            <a href="https://github.com/stawakal/ml-interpretability" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>CS Portfolio</h3>
+              <span class="project-type">Web</span>
+            </div>
+            <p>This portfolio site showcasing projects and experience. Clean, responsive design with dark mode.</p>
+            <div class="project-tech">HTML, CSS, JavaScript</div>
+            <a href="https://github.com/stawakal/cs-portfolio" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt experience">
+      <div class="container">
+        <span class="section-label">Experience</span>
+        <h2>Where I've Worked</h2>
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="experience-header">
+              <h3>Independent Contractor</h3>
+              <span class="experience-date">Jan 2025 – Present</span>
+            </div>
+            <p class="experience-org">SOSi (FEMA OPIS Contract) · Reston, VA</p>
+            <ul>
+              <li>Obtained Public Trust Clearance via OPM SF85P and NBIS e-Application</li>
+              <li>Completed FEMA certifications: Unauthorized Disclosure of Classified Information, OPSEC Awareness, Insider Threat Awareness</li>
+            </ul>
+          </article>
+          <article class="experience-item">
+            <div class="experience-header">
+              <h3>Officer-Event Coordinator</h3>
+              <span class="experience-date">Mar 2025 – Present</span>
+            </div>
+            <p class="experience-org">InternConnect · George Mason University</p>
+            <ul>
+              <li>Organize networking events, career fairs, and professional development workshops</li>
+              <li>Collaborate with industry professionals and university departments to facilitate internship opportunities</li>
+            </ul>
+          </article>
+          <article class="experience-item">
+            <div class="experience-header">
+              <h3>OSCAR Research Assistant & Web Redesigner</h3>
+              <span class="experience-date">Jan 2024 – Present</span>
+            </div>
+            <p class="experience-org">STAR-TIDES · George Mason University</p>
+            <ul>
+              <li>Redesigned STAR-TIDES website using WordPress, improving UX and visual appeal</li>
+              <li>Research on climate-induced migration; managed meeting minutes, attendee communications, and speaker outreach for Demo Events</li>
+            </ul>
+          </article>
+          <article class="experience-item">
+            <div class="experience-header">
+              <h3>Transforming STEM Conference Technician</h3>
+              <span class="experience-date">Nov 2024 – Present</span>
+            </div>
+            <p class="experience-org">AAC&U · Arlington, VA</p>
+            <ul>
+              <li>Technical support for STEM conference setup, troubleshooting, and audiovisual equipment</li>
+              <li>Manage digital platforms and event logistics for seamless presentations</li>
+            </ul>
+          </article>
+          <article class="experience-item">
+            <div class="experience-header">
+              <h3>Outreach</h3>
+              <span class="experience-date">Nov 2024 – Present</span>
+            </div>
+            <p class="experience-org">Hack Overflow · George Mason University</p>
+            <ul>
+              <li>Event coordination and outreach for HackOverflow; participant engagement, communication, and on-site coordination</li>
+            </ul>
+          </article>
+          <article class="experience-item">
+            <div class="experience-header">
+              <h3>Student Outreach Educator & Online Dari/Farsi Interpreter</h3>
+              <span class="experience-date">Mar 2020 – Present</span>
+            </div>
+            <p class="experience-org">Afghan Education Student Outreach Project · Remote</p>
+            <ul>
+              <li>Teach Afghan students computer science and programming; build foundational knowledge and digital literacy</li>
+              <li>Farsi/Dari interpreter for educational outreach</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resume-cta">
+      <div class="container text-center">
+        <h2>Want the full picture?</h2>
+        <p>I'd be happy to share my resume. Reach out and I'll send it over.</p>
+        <a href="mailto:sh.tawakalyar@gmail.com?subject=Resume%20Request" class="btn btn-primary">Email me for my resume</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <span class="section-label">Get in Touch</span>
+        <h2>Let's Connect</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <a href="mailto:sh.tawakalyar@gmail.com">sh.tawakalyar@gmail.com</a>
+            <a href="https://www.linkedin.com/in/s-tawakalyar" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/stawakal" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="mailto:sh.tawakalyar@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/s-tawakalyar" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/stawakal" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Shaheda Tawakalyar. Built with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
